@@ -1,10 +1,11 @@
-puts "Entrez un nombre: "
+puts "Salut, bienvenue dans ma super pyramide ! Combien d'etages veux-tu ?"
 nbr = gets.chomp.to_i
 x = 0
 y = 0
 nbr2 = nbr
 comp = 0
 if nbr > 0 && nbr <= 25
+	puts "Voici la pyramide :"
 	while y < nbr
 		x = 0
 		nbr2 = nbr2 - 1
